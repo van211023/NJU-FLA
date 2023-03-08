@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/compiler/tm/turing-project/TM.cpp
+TM.h
+/home/compiler/tm/turing-project/TM.h
+
+/home/compiler/tm/turing-project/TM.h
+iostream
+-
+string.h
+-
+vector
+-
+iomanip
+-
+fstream
+-
+assert.h
+-
+regex
+-
+
